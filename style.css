@@ -1,0 +1,42 @@
+/*.dots {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  animation: around 4s infinite; 
+}
+
+@keyframes around {
+  0% {
+     transform:translate(100px,800px);
+  }
+  
+  20% {
+     transform:translate(800px,600px);
+  }
+  
+  40% {
+   transform:translate(0px,0px);
+  }
+  
+  60% {
+   transform:translate(1000px,800px);
+  }
+
+  80% {
+    transform:translate(300px,600px);
+  }
+
+  100% {
+    transform:translate(80px,200px);
+  }
+*/
+
+body {
+  background: #053057;
+}
+
+img {
+  overflow:hidden;
+}
