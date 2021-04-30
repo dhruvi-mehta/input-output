@@ -55,15 +55,32 @@ img {
   padding: 10px 18px;
   margin-left:8px;
   margin-right: 8px;
-  border: black solid 2px;
   border-radius: 15px
 }
 
+button {
+   font-family: serenity,sans-serif;
+   font-size: 25px;
+   font-weight: 200;
+   color:black;
+   border: black solid 2px;
+   background-color:transparent;
+   margin:10px;
+   padding:10px;
+}
 
-.tool1:hover{
+button:hover {
+  background-color:white;
+}
+
+/*.tool1:hover{
   cursor:pointer;
   animation: flash linear 2s infinite;
-}
+}*/
+
+
+
+
 .draw {
   padding:30px;
 }
