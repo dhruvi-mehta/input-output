@@ -34,44 +34,6 @@ img {
   padding-top:200px;
 }
 
-/*ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}*/
-
-/*.option{
-  float: right;
-  font-family: 'Asap';
-  font-weight: bold;
-  font-size: 30px;
-  list-style-type: none;
-}*/
-/*
-.option:last-child {
-  border-right: none;
-}
-
-.option a {
-  color: white;
-  text-align: center;
-  padding: 16px 16px;
-  text-decoration: none;
-}*/
-
-/*a:link {
-  text-decoration: none;
-}
-a:visited {
-  text-decoration: none;
-  text
-}
-
-a:hover {
-  font-size: 30px;
-  text-decoration: none;
-}*/
 
 .tool {
   height:40px;
@@ -189,7 +151,7 @@ a:hover {
     animation: flash linear 1.8s infinite;
 }*/
 
-.backward{
+/*.backward{
   color: white;
   font-family: 'Asap';
   font-size: 20px;
@@ -204,7 +166,7 @@ h3{
 .options{
   margin: 20px;
   width: 50%;
-}
+}*/
 /*input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
