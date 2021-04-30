@@ -1,0 +1,159 @@
+<html lang="en-US">
+<head>
+ <meta charset="UTF-8">
+ <link href="style.css" rel="stylesheet">
+ <link rel="stylesheet" href="https://use.typekit.net/bqn6nve.css">
+ <script src="script.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"></script>
+ <title>Mandala Builder</title>
+</head>
+
+<body class="color">
+ <! –– topbar ––>
+ <div class="title">BUILD YOUR OWN MANDALA</div>
+<!-- <div class="nav">
+ <ul class="links">
+   <li class="option"><a href="contact.html">Contact</a></li>
+   <li class="option"><a href="https://infocus.asianart.org/kimonorefashioned/">About</a></li>
+ </ul>
+</div> -->
+
+
+<div class="tool">
+ <li class= "tool1"><div id="layer1"> <!-- onclick="undo_image( -->LAYER 1</div></li>
+ <li class= "tool1"><div id="layer2"><!-- onclick="export_image()" -->LAYER 2</div></li>
+ <li class= "tool1"><div id="layer3"><!-- onclick="reset()" -->LAYER 3</div></li>
+ <li class= "tool1"><div id="layer4"><!-- onclick="reset()" -->LAYER 4</div></li>
+</div>
+
+<! –– drawboard ––>
+<center>
+ <section class="draw"> <!-- crossorigin="anonymous"> -->
+   <div id="box"> <img id="first-image" src="images/mandala-01.svg"> </div>
+ </section>
+
+
+
+<! –– motif bar ––>
+ <section class="motif">
+   <div class="item1" crossorigin="anonymous" onclick="img('mandala', 1)">
+      <img src="images/mandala-01.svg" alt="mandala1" >
+    </div>
+    <div class="item1" onclick="img('mandala', 1)">
+      <img src="images/mandala-02.svg" alt="mandala2">
+    </div>
+    <div class="item1" onclick="img('mandala', 1)">
+      <img src="images/mandala-03.svg" alt="mandala3" >
+    </div>
+    <div class="item1" onclick="img('mandala', 1)">
+      <img src="images/mandala-04.svg" alt="mandala4" >
+    </div>
+    <div class="item2" onclick="img('mandala', 2)">
+      <img src="images/mandala-05.svg" alt="mandala5" >
+    </div>
+    <div class="item2" onclick="img('mandala', 2)">
+      <img src="images/mandala-06.svg" alt="mandala6" >
+    </div>
+    <div class="item2" onclick="img('mandala', 2)">
+      <img src="images/mandala-07.svg" alt="mandala7" >
+    </div>
+    <div class="item2" onclick="img('mandala', 2)">
+      <img src="images/mandala-08.svg" alt="mandala8" >
+    </div>
+    <div class="item3" onclick="img('mandala', 3)"> 
+      <img src="images/mandala-09.svg" alt="mandala9" >
+    </div>
+    <div class="item3" onclick="img('mandala', 3)">
+      <img src="images/mandala-10.svg" alt="mandala10" >
+    </div>
+    <div class="item3" onclick="img('mandala', 3)">
+      <img src="images/mandala-11.svg" alt="mandala11" >
+    </div>
+    <div class="item3" onclick="img('mandala', 3)">
+      <img src="images/mandala-12.svg" alt="mandala12" >
+    </div>
+    <div class="item4" onclick="img('mandala', 4)">
+      <img src="images/mandala-13.svg" alt="mandala13" >
+    </div>
+    <div class="item4" onclick="img('mandala', 4)">
+      <img src="images/mandala-14.svg" alt="mandala14" >
+    </div>
+    <div class="item4" onclick="img('mandala', 4)">
+      <img src="images/mandala-15.svg" alt="mandala15" >
+    </div>
+    <div class="item4" onclick="img('mandala', 4)">
+      <img src="images/mandala-16.svg" alt="mandala16" >
+    </div>
+
+  </section>
+</center>
+
+ <div id="canvas">
+    </div>
+
+
+
+  <!--  <script type="text/javascript">
+  var cnt = 0;
+
+  function reset() {
+    window.location.replace("index.html", '_blank');
+  }
+
+  function undo_image() {
+    document.getElementById("canvas").remove();
+    window.cnt = window.cnt - 1;
+  }
+
+  function export_image() {
+
+    html2canvas(document.querySelector("#box")).then(canvas => {
+        document.body.appendChild(canvas)
+
+        this.href = document.getElementById("box").toDataURL();
+        this.download = "export.png";
+    });
+
+
+
+
+  }
+
+  function saveAs(uri, filename) {
+    var link = document.createElement('a');
+    if (typeof link.download === 'string') {
+        link.href = uri;
+        link.download = filename;
+        //Firefox requires the link to be in the body
+        document.body.appendChild(link);
+        //simulate click
+        link.click();
+        //remove the link when done
+        document.body.removeChild(link);
+    } else {
+        window.open(uri);
+    }
+  }
+
+  function call_img(prefix, max_suffix) {
+    if (window.cnt == 0) {
+      document.getElementById("first-image").remove();
+    }
+    if (window.cnt >= 3) {
+      alert("Too much pattern on your canvas! Try Undo one motif.");
+    } else {
+      var suffix = Math.floor( Math.random() * (max_suffix - 1) + 1 );
+      var img = document.createElement("img");
+      img.id = "canvas";
+      img.src = "assets/img/" + prefix + "-" + suffix + ".png";
+      img.style = "z-index: " + window.cnt + "; position: absolute; top: 0; left: 0;"
+      var img_div_position = document.getElementById("box");
+      img_div_position.appendChild(img);
+      window.cnt = window.cnt + 1;
+    }
+  }
+</script> -->
+
+</body>
+</html>
+  
