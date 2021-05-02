@@ -61,7 +61,7 @@ function pattern(prefix, max_suffix) {
       var suffix = Math.floor( Math.random() * (max_suffix - 1) + 2 );
       var img = document.createElement("img");
       img.id = "canvas";
-      img.src = "images/" + prefix + "-" + suffix + ".svg";
+      img.src = "images/" + prefix + "-" + suffix.toString().padStart(2, '0') + ".svg";
       img.style = "z-index: " + window.cnt + "; position: absolute; top: 0; left: 0;"
       var img_div_position = document.getElementById("box");
       img_div_position.appendChild(img);
