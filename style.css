@@ -87,8 +87,8 @@ button:hover {
 #box{
   position: relative;
   overflow: auto;
-  width: 1000px;
-  height: 700px;
+  width: 500px;
+  height: 500px;
   background:white;
   outline: 2px solid black;
 }

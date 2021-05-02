@@ -4,31 +4,29 @@ console.log("hello");
  var cnt = 0;
 
   function showl1() {
-    document.body.replace("index.html", '_blank');
+    // document.body.replace("index.html", '_blank');
+}
 
+  // function showl2 () {
+  //   var layer2 = document.querySelector('.item2');
+  //   layer2.addEventListener("click", function(){
 
-  }
+  //       if (layer2.classList.contains("item2")){
+  //           layer2.style.display = "block";
+  //     } else {
+  //       layer2.style.display = "none";
+  //     }
+  //    });
 
-  function showl2 () {
-    var layer2 = document.querySelector('.item2');
-    layer2.addEventListener("click", function(){
+  // }
 
-        if (layer2.classList.contains("item2")){
-            layer2.style.display = "block";
-      } else {
-        layer2.style.display = "none";
-      }
-     });
+  // function showl3() {
 
-  }
+  // }
 
-  function showl3() {
+  // function showl4() {
 
-  }
-
-  function showl4() {
-
-  }
+  // }
 
     html2canvas(document.querySelector("#box")).then(canvas => {
         document.body.appendChild(canvas)
