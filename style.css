@@ -169,7 +169,7 @@ margin: auto;
 }
 
 
-@media only screen and (max-width: 812px) {
+@media only screen and (min-width: 844px) {
   
   header {
   margin: 0px;
