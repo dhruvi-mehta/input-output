@@ -1,14 +1,16 @@
-<html lang="en-US">
-<head>
- <meta charset="UTF-8">
- <link href="style.css" rel="stylesheet">
- <link rel="stylesheet" href="https://use.typekit.net/bqn6nve.css">
- <script src="script.js"></script>
- <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"></script>
- <title>Mandala Builder</title>
-</head>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Create your own Mandala</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://use.typekit.net/bqn6nve.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
 
-<body class="color">
+  <body class="color">
  <! –– topbar ––>
  <div class="title">BUILD YOUR OWN MANDALA</div>
 
@@ -28,117 +30,53 @@
 
 <! –– motif bar ––>
  <section class="motif">
-
-<!-- <div class="layer1">
-   <div class="item1"> 
-    <img src="images/mandala-01.svg" >
-  </div>
    <div class="item1">
-    <img src="images/mandala-02.svg">
-  </div>
-   <div class="item1"> 
-    <img src="images/mandala-03.svg">
-   </div>
-   <div class="item1">
-      <img src="images/mandala-04.svg">
-   </div>
-</div>
-
-
-<div class="layer2">
-   <div class="item2"> 
-    <img src="images/mandala-05.svg" >
-  </div>
-   <div class="item2">
-    <img src="images/mandala-06.svg">
-  </div>
-   <div class="item2"> 
-    <img src="images/mandala-07.svg">
-   </div>
-   <div class="item2">
-      <img src="images/mandala-08.svg">
-   </div>
-</div>
-
-<div class="layer3">
-   <div class="item3"> 
-    <img src="images/mandala-09.svg" >
-  </div>
-   <div class="item3">
-    <img src="images/mandala-10.svg">
-  </div>
-   <div class="item3"> 
-    <img src="images/mandala-11.svg">
-   </div>
-   <div class="item3">
-      <img src="images/mandala-12.svg">
-   </div>
-</div>
-
-<div class="layer4">
-   <div class="item2"> 
-    <img src="images/mandala-13.svg" >
-  </div>
-   <div class="item2">
-    <img src="images/mandala-14.svg">
-  </div>
-   <div class="item2"> 
-    <img src="images/mandala-15.svg">
-   </div>
-   <div class="item2">
-      <img src="images/mandala-16.svg">
-   </div>
-</div> -->
-
-
-
-   <div class="item1" crossorigin="anonymous">
-      <img src="images/mandala-01.svg" alt="mandala1" >
+      <img src="images/mandala-01.svg" alt="" >
     </div>
-    <div class="item1" onclick="pattern('mandala', 1)">
-      <img src="images/mandala-02.svg" alt="mandala2">
+    <div class="item1" onclick="">
+      <img src="images/mandala-02.svg" alt="">
     </div>
-    <div class="item1" onclick="pattern('mandala', 1)">
-      <img src="images/mandala-03.svg" alt="mandala3" >
+    <div class="item1" onclick="">
+      <img src="images/mandala-03.svg" alt="" >
     </div>
-    <div class="item1" onclick="pattern('mandala', 1)">
-      <img src="images/mandala-04.svg" alt="mandala4" >
+    <div class="item1" onclick="">
+      <img src="images/mandala-04.svg" alt="" >
     </div>
-    <div class="item2" onclick="pattern('mandala', 2)">
-      <img src="images/mandala-05.svg" alt="mandala5" >
+    <div class="item2" onclick="">
+      <img src="images/mandala-05.svg" alt="" >
     </div>
-    <div class="item2" onclick="pattern('mandala', 2)">
-      <img src="images/mandala-06.svg" alt="mandala6" >
+    <div class="item2" onclick="">
+      <img src="images/mandala-06.svg" alt="" >
     </div>
-    <div class="item2" onclick="pattern('mandala', 2)">
-      <img src="images/mandala-07.svg" alt="mandala7" >
+    <div class="item2" onclick="">
+      <img src="images/mandala-07.svg" alt="" >
     </div>
-    <div class="item2" onclick="pattern('mandala', 2)">
-      <img src="images/mandala-08.svg" alt="mandala8" >
+    <div class="item2" onclick="">
+      <img src="images/mandala-08.svg" alt="" >
     </div>
-    <div class="item3" onclick="pattern('mandala', 3)"> 
-      <img src="images/mandala-09.svg" alt="mandala9" >
+    <div class="item3" onclick=""> 
+      <img src="images/mandala-09.svg" alt="" >
     </div>
-    <div class="item3" onclick="pattern('mandala', 3)">
-      <img src="images/mandala-10.svg" alt="mandala10" >
+    <div class="item3" onclick="">
+      <img src="images/mandala-10.svg" alt="" >
     </div>
-    <div class="item3" onclick="pattern('mandala', 3)">
-      <img src="images/mandala-11.svg" alt="mandala11" >
+    <div class="item3" onclick="">
+      <img src="images/mandala-11.svg" alt="" >
     </div>
-    <div class="item3" onclick="pattern('mandala', 3)">
-      <img src="images/mandala-12.svg" alt="mandala12" >
+    <div class="item3" onclick="">
+      <img src="images/mandala-12.svg" alt="" >
     </div>
-    <div class="item4" onclick="pattern('mandala', 4)">
-      <img src="images/mandala-13.svg" alt="mandala13" >
+    <div class="item4" onclick="">
+      <img src="images/mandala-13.svg" alt="" >
     </div>
-    <div class="item4" onclick="pattern('mandala', 4)">
-      <img src="images/mandala-14.svg" alt="mandala14" >
+    <div class="item4" onclick="">
+      <img src="images/mandala-14.svg" alt="" >
     </div>
-    <div class="item4" onclick="pattern('mandala', 4)">
-      <img src="images/mandala-15.svg" alt="mandala15" >
+    <div class="item4" onclick="">
+      <img src="images/mandala-15.svg" alt="" >
     </div>
-    <div class="item4" onclick="pattern('mandala', 4)">
-      <img src="images/mandala-16.svg" alt="mandala16" >
+    <div class="item4" onclick="">
+      <img src="images/mandala-16.svg" alt="" >
     </div>
 
   </section>
@@ -146,70 +84,4 @@
 
  <div id="canvas">
     </div>
-
-
-
-  <!--  <script type="text/javascript">
-  var cnt = 0;
-
-  function reset() {
-    window.location.replace("index.html", '_blank');
-  }
-
-  function undo_image() {
-    document.getElementById("canvas").remove();
-    window.cnt = window.cnt - 1;
-  }
-
-  function export_image() {
-
-    html2canvas(document.querySelector("#box")).then(canvas => {
-        document.body.appendChild(canvas)
-
-        this.href = document.getElementById("box").toDataURL();
-        this.download = "export.png";
-    });
-
-
-
-
-  }
-
-  function saveAs(uri, filename) {
-    var link = document.createElement('a');
-    if (typeof link.download === 'string') {
-        link.href = uri;
-        link.download = filename;
-        //Firefox requires the link to be in the body
-        document.body.appendChild(link);
-        //simulate click
-        link.click();
-        //remove the link when done
-        document.body.removeChild(link);
-    } else {
-        window.open(uri);
-    }
-  }
-
-  function call_img(prefix, max_suffix) {
-    if (window.cnt == 0) {
-      document.getElementById("first-image").remove();
-    }
-    if (window.cnt >= 3) {
-      alert("Too much pattern on your canvas! Try Undo one motif.");
-    } else {
-      var suffix = Math.floor( Math.random() * (max_suffix - 1) + 1 );
-      var img = document.createElement("img");
-      img.id = "canvas";
-      img.src = "assets/img/" + prefix + "-" + suffix + ".png";
-      img.style = "z-index: " + window.cnt + "; position: absolute; top: 0; left: 0;"
-      var img_div_position = document.getElementById("box");
-      img_div_position.appendChild(img);
-      window.cnt = window.cnt + 1;
-    }
-  }
-</script> -->
-
-</body>
-</html>
   
