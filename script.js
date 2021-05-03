@@ -1,5 +1,7 @@
 console.log("hello");
 
+let cnt = 0;
+
 document.querySelector('.motif').addEventListener('click', (event) => {
     if (event.target.tagName === 'IMG') {
         if (cnt === 0) document.getElementById('first-image').remove();
