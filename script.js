@@ -28,23 +28,23 @@ console.log("hello");
 
   // }
 
-    html2canvas(document.querySelector("#box")).then(canvas => {
-        document.body.appendChild(canvas)
+//     html2canvas(document.querySelector("#box")).then(canvas => {
+//         document.body.appendChild(canvas)
 
-        this.href = document.getElementById("box").toDataURL();
-        this.download = "export.png";
-    });
+//         this.href = document.getElementById("box").toDataURL();
+//         this.download = "export.png";
+//     });
 
 
-var filterFamily = document.querySelector('#family');
-    filterFamily.addEventListener("click", function(){
+// var filterFamily = document.querySelector('#family');
+//     filterFamily.addEventListener("click", function(){
 
-        if (movieContainer.classList.contains("family")){
-            movieContainer.style.display = "block";
-      } else {
-        movieContainer.style.display = "none";
-      }
-     });
+//         if (movieContainer.classList.contains("family")){
+//             movieContainer.style.display = "block";
+//       } else {
+//         movieContainer.style.display = "none";
+//       }
+//      });
 
 
 
