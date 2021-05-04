@@ -234,8 +234,8 @@ display:grid;
   .item1, .item2, .item3, .item4 {
     display:grid;
     overflow:hidden;
-    width: 110px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
     background-color: white;
     outline: black solid 1px;
     margin-bottom: 10px;
